@@ -1,0 +1,57 @@
+.brick {
+    width: 500px;
+    height: 421px;
+    border: 5px solid lightgray;
+    background: royalblue;
+    position: relative;
+    
+    
+  }
+
+
+  .front{
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+    background: rgba(206, 41, 41, 0.931);
+    left: 65px;
+    top: 78px;
+    display: block;
+    z-index: 3;
+  }
+
+  .mid{
+    position: absolute;
+    width: 270px;
+    height: 80px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    background: rgba(112, 17, 17, 0.931);
+    left: 115px;
+    top: 140px;
+    display: block;
+    z-index: 4;
+  }
+
+  .side{
+    position: absolute;
+    width: 370px;
+    height: 200px;
+    border-bottom-left-radius: 35px;
+    border-bottom-right-radius: 35px;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+
+    background: rgba(112, 17, 17, 0.931);
+    left: 65px;
+    top: 125px;
+    display: block;
+    z-index: 2;
+  }
